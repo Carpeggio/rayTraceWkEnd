@@ -8,14 +8,14 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "C:/Users/cparadiso/Downloads/Coding/rayTraceWkEnd/ppmViewer.cpp",
+            "program": "C:/Users/cparadiso/Downloads/Coding/rayTraceWkEnd/ppmTest.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "C:/Users/cparadiso/Downloads/Coding/rayTraceWkEnd/",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:/MinGW/bin/g++.exe",
+            "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
