@@ -32,9 +32,9 @@ int main() {
             float scalerR = i/height;
             float scalerG = j/width;
             float scalerB = .2;
-            int r = scalerR * range;
-            int g = scalerG * range;
-            int b = scalerB * range;
+            int r = static_cast<int>(scalerR * range);
+            int g = static_cast<int>(scalerG * range);
+            int b = static_cast<int>(scalerB * range);
             outfile << r << "  " << g << "  " << b << "    ";
         }
         outfile << "\n";
